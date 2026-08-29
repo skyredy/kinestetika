@@ -10,7 +10,6 @@ import { Programs } from './components/Programs';
 import { Space } from './components/Space';
 import { Prices } from './components/Prices';
 import { Reviews } from './components/Reviews';
-import { Faq } from './components/Faq';
 import { CtaBand } from './components/CtaBand';
 import { Contacts } from './components/Contacts';
 import { Footer } from './components/Footer';
@@ -49,7 +48,6 @@ export default function App() {
         <Space />
         <Prices />
         <Reviews />
-        <Faq />
         <CtaBand />
         <Contacts />
       </main>
