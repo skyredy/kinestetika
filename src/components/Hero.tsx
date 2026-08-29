@@ -47,10 +47,13 @@ export function Hero({ ready }: { ready: boolean }) {
           <p data-h-fade className="mt-8 max-w-md text-[1.05rem] leading-relaxed text-ink-soft">
             Группы до шести человек. Тренер смотрит за техникой у каждого. Рядом с метро Молодёжная.
           </p>
-          <div data-h-fade className="mt-9">
+          <div data-h-fade className="mt-9 flex flex-wrap items-center gap-x-6 gap-y-3">
             <Cta href={studio.telegram} external>
-              Записаться в Telegram
+              Записаться на пробное
             </Cta>
+            <span className="text-sm text-ink-soft">
+              <span className="font-semibold text-ink">{studio.rating.value}</span> · {studio.rating.marks} оценок
+            </span>
           </div>
         </div>
 
