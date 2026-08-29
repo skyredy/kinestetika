@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/kinestetika/',
+  base: './',
   plugins: [react(), tailwindcss()],
   server: { port: Number(process.env.PORT) || 5412, strictPort: false },
   build: {
